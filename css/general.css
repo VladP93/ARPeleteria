@@ -1,0 +1,35 @@
+body {
+  background-color: #770f0f;
+}
+
+.margin-top-15p {
+  margin-top: 15%;
+}
+
+.margin-top-5p {
+  margin-top: 5%;
+}
+
+.alinearDerecha {
+  text-align: right;
+}
+
+.alinearIzquierda {
+  text-align: left;
+}
+
+.margenFormCard {
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.margenTopBottom {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.centrarTxt {
+  text-align: center;
+}

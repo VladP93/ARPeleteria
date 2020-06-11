@@ -1,5 +1,7 @@
 <?php
 
-echo 'Hola Mundo';
+require './views/index.view.php';
 
-//require './views/shared/_layout.view';
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+    header('Location: inicio.php');
+}
