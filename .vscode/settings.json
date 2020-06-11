@@ -1,4 +1,4 @@
 {
-    "path-autocomplete.enableFolderTrailingSlash": false,
-    "path-autocomplete.extensionOnImport": true
+  "path-autocomplete.enableFolderTrailingSlash": false,
+  "path-autocomplete.extensionOnImport": true
 }
