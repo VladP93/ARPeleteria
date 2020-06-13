@@ -2,95 +2,81 @@
 require 'shared/_layout.view.php';
 ?>
 
-<body style="height: 100%;">
-    <div class="container-fluid row">
-        <div class="col-2"></div>
-        <div class="col-8 align-middle margin-top-5p">
-            <div class="card">
-                <div class="container margenTopBottom">
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-boxes"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Inventario</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                <h3><i class="fas fa-file-invoice-dollar"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Facturación</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                <h3><i class="fas fa-balance-scale-right"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Cuentas</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                <h3><i class="far fa-file-pdf"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Reportes</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-hand-holding-usd"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Clientes</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-truck-moving"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Proveedores</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-users-cog"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>Administración</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-user-secret"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>#</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card centrarTxt">
-                                <div class="card-body">
-                                    <h3><i class="fas fa-user-secret"></i></h3>
-                                    <a href="#" class="stretched-link"><h5>#</h5></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning text-warning"><h2 class="centrarTxt">Inventario</h2></a>
+            <br>
+            <i class="fas fa-boxes centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo al inventario, permite ver y gestion los productos en existencia.</p>
         </div>
-        <div class="col-2"></div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Facturación</h2></a>
+            <br>
+            <i class="fas fa-file-invoice-dollar centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo a facturación, permite realizar ventas y consultar ventas realizadas.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Cuentas</h2></a>
+            <br>
+            <i class="fas fa-balance-scale-right centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo a las cuentas almacenadas, permite consultar las cuentas por cobrar y las cuentas por pagar.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Reportes</h2></a>
+            <br>
+            <i class="far fa-file-pdf centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo a los reportes, permite consultar...</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Clientes</h2></a>
+            <br>
+            <i class="fas fa-hand-holding-usd centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo al listado de clientes, permite registrar nuevos clientes o modificar los existentes.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Proveedores</h2></a>
+            <br>
+            <i class="fas fa-truck-moving centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo al listado de proveedores, permite registrar nuevos proveedores o modificar los existentes.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Administración</h2></a>
+            <br>
+            <i class="fas fa-users-cog centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Acceso directo al menú de administración, permite gestionar usuarios, roles, cuentas, productos, unidades de medida, respaldos, etc.</p>
+        </div>
+        <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
+            <br>
+            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">NULL</h2></a>
+            <br>
+            <i class="fas fa-user-secret centrarTxt h3"></i>
+            <br>
+            <br>
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ante odio, sagittis vel felis at, ultrices feugiat lacus.</p>
+        </div>
     </div>
+</div>
 </body>

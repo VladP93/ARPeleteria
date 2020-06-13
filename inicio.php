@@ -1,5 +1,4 @@
 <?php
 
 require './views/inicio.view.php';
-
-echo '<a href="index.php">Regresar</a>';
+require './views/shared/_footer.view.php';

@@ -6,35 +6,26 @@ require '_header.view.php';
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">AR Trade</a>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inventario</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Facturación</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cuentas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Reportes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Clientes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Proveedores</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.php">Cerrar Sesión</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-3">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand mr-3">AR Trade - Peletería</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link">Inicio</a>
+                        <a href="#" class="nav-item nav-link">Inventario</a>
+                        <a href="#" class="nav-item nav-link">Cuentas</a>
+                        <a href="#" class="nav-item nav-link">Facturación</a>
+                        <a href="#" class="nav-item nav-link">Reportes</a>
+                        <a href="#" class="nav-item nav-link">Clientes</a>
+                        <a href="#" class="nav-item nav-link">Proveedores</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.php" class="nav-item nav-link">Cerrar Sesión</a>
+                    </div>
+                </div>
+            </div>    
         </nav>
     </header>
