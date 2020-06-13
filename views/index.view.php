@@ -2,36 +2,32 @@
 require 'shared/_header.view.php';
 ?>
 
-<body style="height: 100%;">
+<body>
     <div class="container-fluid row">
-        <div class="col-4"></div>
-        <div class="col-4 align-middle margin-top-15p">
+        <div class="col-lg-4 col-md-3 col-sm-2"></div>
+        <div class="col-lg-4 col-md-6 col-sm-8 align-middle margin-top-15p">
             <div class="card">
-                <form class="margenFormCard" name="login" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
+                <form name="login" class="margenFormCard" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST">
                     <p><b>Bienvenido a AR Trade</b></p>
-                    <div class="row">
-                        <div class="col-1"><i class="fas fa-user align-bottom"></i></div>
-                        <div class="col-11">
-                            <input class="form-control" type="text" name="usuario" placeholder="Usuario" />
-                        </div>
+                    <div class="form-group">
+                        <label for="user"><i class="fas fa-user"></i> Usuario:</label>
+                        <input type="text" class="form-control" placeholder="Ingrese Usuario" id="user">
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-1"><i class="fas fa-lock align-bottom"></i></div>
-                        <div class="col-11"></i><input class="form-control" type="password" name="contrasena" placeholder="Contraseña" /></div>
+                    <div class="form-group">
+                        <label for="pwd"><i class="fas fa-lock"></i> Contraseña:</label>
+                        <input type="password" class="form-control" placeholder="Ingrese Contraseña" id="pwd">
                     </div>
-                    <br />
-                    <div class="row">
-                        <div class="alinearIzquierda col-6">
+                    <div class="form-group">
+                        <div class="alinearIzquierda">
                             <a href="#">Olvidé mi contraseña</a>
                         </div>
-                        <div class="col-6 alinearDerecha">
+                        <div class="alinearDerecha">
                             <input type="submit" class="btn btn-success" value="Iniciar sesión" />
                         </div>
                     </div>
                 </form>
             </div>
         </div>
-        <div class="col-4"></div>
+        <div class="col-lg-4 col-md-3 col-sm-2"></div>
     </div>
 </body>

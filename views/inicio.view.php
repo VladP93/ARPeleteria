@@ -7,7 +7,7 @@ require 'shared/_layout.view.php';
     <div class="row">
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning text-warning"><h2 class="centrarTxt">Inventario</h2></a>
+            <a href="inventario.php" class="stretched-link text-warning text-warning"><h2 class="centrarTxt">Inventario</h2></a>
             <br>
             <i class="fas fa-boxes centrarTxt h3"></i>
             <br>
