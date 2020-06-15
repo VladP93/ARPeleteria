@@ -16,7 +16,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Facturación</h2></a>
+            <a href="facturacion.php" class="stretched-link text-warning"><h2 class="centrarTxt">Facturación</h2></a>
             <br>
             <i class="fas fa-file-invoice-dollar centrarTxt h3"></i>
             <br>
@@ -25,7 +25,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Cuentas</h2></a>
+            <a href="cuentas.php" class="stretched-link text-warning"><h2 class="centrarTxt">Cuentas</h2></a>
             <br>
             <i class="fas fa-balance-scale-right centrarTxt h3"></i>
             <br>
@@ -34,7 +34,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Reportes</h2></a>
+            <a href="reportes.php" class="stretched-link text-warning"><h2 class="centrarTxt">Reportes</h2></a>
             <br>
             <i class="far fa-file-pdf centrarTxt h3"></i>
             <br>
@@ -43,7 +43,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Clientes</h2></a>
+            <a href="clientes.php" class="stretched-link text-warning"><h2 class="centrarTxt">Clientes</h2></a>
             <br>
             <i class="fas fa-hand-holding-usd centrarTxt h3"></i>
             <br>
@@ -52,7 +52,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-dark mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Proveedores</h2></a>
+            <a href="proveedores.php" class="stretched-link text-warning"><h2 class="centrarTxt">Proveedores</h2></a>
             <br>
             <i class="fas fa-truck-moving centrarTxt h3"></i>
             <br>
@@ -61,7 +61,7 @@ require 'shared/_layout.view.php';
         </div>
         <div class="col-md-6 col-lg-4 col-xl-3 text-white bg-secondary mb-3 centrarTxt">
             <br>
-            <a href="#" class="stretched-link text-warning"><h2 class="centrarTxt">Administración</h2></a>
+            <a href="administracion.php" class="stretched-link text-warning"><h2 class="centrarTxt">Administración</h2></a>
             <br>
             <i class="fas fa-users-cog centrarTxt h3"></i>
             <br>

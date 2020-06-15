@@ -1,5 +1,5 @@
 <?php
 
-require './views/inventario.view.php'; 
+require './views/roles.view.php';
 
 require './views/shared/_footer.view.php';

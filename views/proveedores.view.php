@@ -5,24 +5,28 @@ require 'shared/_layout.view.php';
 <form class="container-fluid text-light">
     <div class="row"><br>
         <div class="col-md-4 col-sm-6">
-        <label for="user"><i class="fas fa-box-open"></i> Producto:</label>
-            <input type="text" class="form-control" placeholder="Producto" />
+        <label for="user"><i class="far fa-id-card"></i> NIT:</label>
+            <input type="text" class="form-control" placeholder="NIT" />
         </div>
         <div class="col-md-4 col-sm-6">
-        <label for="user"><i class="fas fa-bars"></i> Descripcion:</label>
-            <input type="text" class="form-control" placeholder="Descripción">
+        <label for="user"><i class="fas fa-id-badge"></i> Nombre:</label>
+            <input type="text" class="form-control" placeholder="Nombre">
         </div>
         <div class="col-md-4 col-sm-6">
-        <label for="user"><i class="fas fa-chart-line"></i> Cantidad:</label>
-            <input type="text" class="form-control" placeholder="Cantidad">
+        <label for="user"><i class="fas fa-address-card"></i> Dirección:</label>
+            <input type="text" class="form-control" placeholder="Dirección">
         </div>
         <div class="col-md-4 col-sm-6">
-        <label for="user"><i class="fas fa-tag"></i> Categoría:</label>
-            <input type="text" class="form-control" placeholder="Categoría">
+        <label for="user"><i class="fas fa-phone"></i> Teléfono:</label>
+            <input type="text" class="form-control" placeholder="Teléfono">
         </div>
         <div class="col-md-4 col-sm-6">
-        <label for="user"><i class="fas fa-balance-scale"></i> Unidad de medida:</label>
-            <input type="text" class="form-control" placeholder="Unidad de medida">
+        <label for="user"><i class="fas fa-envelope-open-text"></i> e-mail:</label>
+            <input type="text" class="form-control" placeholder="e-mail">
+        </div>
+        <div class="col-md-4 col-sm-6">
+        <label for="user"><i class="fas fa-user-tag"></i> Tipo:</label>
+            <input type="text" class="form-control" placeholder="Tipo de usuario">
         </div>
         <div class="col-md-4 col-sm-6">
             <label for="user"><i class="fas fa-check"></i></label><br>
@@ -34,27 +38,15 @@ require 'shared/_layout.view.php';
 <h4 class="text-light">Productos en existencia</h4><br>
 <table class="table table-dark">
     <tr>
-        <th>Producto</th>
-        <th>Descripcion</th>
-        <th>Cantidad disponible</th>
-        <th>Categoria</th>
-        <th>Unidad</th>
+        <th>NIT</th>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th>Teléfono</th>
+        <th>E-mail</th>
+        <th>Tipo</th>
     </tr>
     <tr>
         <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-    </tr>
-    <tr>
-        <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-        <td>asd</td>
-    </tr>
-    <tr>
         <td>asd</td>
         <td>asd</td>
         <td>asd</td>
@@ -67,8 +59,26 @@ require 'shared/_layout.view.php';
         <td>asd</td>
         <td>asd</td>
         <td>asd</td>
+        <td>asd</td>
     </tr>
     <tr>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+    </tr>
+    <tr>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+        <td>asd</td>
+    </tr>
+    <tr>
+        <td>asd</td>
         <td>asd</td>
         <td>asd</td>
         <td>asd</td>
